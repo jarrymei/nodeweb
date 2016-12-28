@@ -1,4 +1,6 @@
 
 exports.test = function (req, res, next) {
-    res.send('hello2')
+    res.render("index", {
+        "user": "mjj"
+    })
 }
